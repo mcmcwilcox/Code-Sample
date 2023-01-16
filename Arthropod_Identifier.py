@@ -1,4 +1,4 @@
-print("Simply enter the number of legs you have observed on your creature!")
+print("Simply enter the number of legs and segments you have observed on your creature!")
 legs = 1400
 segments = 3
 if legs < 6:
