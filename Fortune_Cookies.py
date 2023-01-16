@@ -1,35 +1,32 @@
 import random
-name = "Mary"
-question = "Will I get in?"
-answer = ""
+name = "MC"
+birth_month = "June"
+fortune = ""
 random_number = random.randint(1,10)
 print(random_number)
 if random_number == 1:
-  answer = " Yes - definitely."
+  fortune = " Looking too much into the past will not prepare you for the future."
 elif random_number == 2:
-  answer = " It is decidedly so."
+  fortune = " Today will be exceedingly lucky for you."
 elif random_number == 3:
-  answer = " Without a doubt."
+  fortune = " Watch out for the number 4 this week..."
 elif random_number == 4:
-  answer = " Reply hazy, try again."
+  fortune = " Hope for the best, but be prepared for the worst."
 elif random_number == 5:
-  answer = " Ask again later."
+  fortune = " Acquaintance softens prejudice."
 elif random_number == 6:
-    answer = " Better not tell you now."
+    fortune = " Advice prompted by selfishness should not be heeded."
 elif random_number == 7:
-    answer = " My sources say no."
+    fortune = " Fine feathers do not a fine bird make."
 elif random_number == 8:
-    answer = " Outlook not so good."
+    fortune = " One may judge a man by the company he keeps."
 elif random_number == 9:
-    answer = " Very doubtful"
+    fortune = " If you keep your wits about you, a prosperous year lies ahead."
 elif random_number == 10:
-  answer = " Duh! Of course!"
+  fortune = " Do not bite the hand that feeds."
 else:
-  answer = "Error" 
-if name == "":
-  print("Question:" + question)
+  fortune = "You must look deeply inside yourself." 
+if name == "" or birth_month == "":
+    print("I must know where the stars were at the time of your birth to proceed...")
 else:
-  print(name + " asks: " + question)
-if question == "":
-  print("I don't have enough info :(")
-    print("Magic 8-Ball's answer:" + answer)
+  print(name + " wishes for a glimse at the future: " + fortune)
